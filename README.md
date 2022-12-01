@@ -1,27 +1,27 @@
-# Templates.do - Worker Templates API 
+# Experiment.do - Experimentation & A/B Testing API
 
-Explore the API at: <https://templates.do/api>
+Explore the API at: <https://experiment.do/api>
 
 ```json
 {
   "api": {
     "icon": "🚀",
-    "name": "templates.do",
-    "description": "Cloudflare Worker Template",
-    "url": "https://templates.do/api",
+    "name": "experiment.do",
+    "description": "Experimentation & A/B Testing API",
+    "url": "https://experiment.do/api",
     "type": "https://apis.do/templates",
     "endpoints": {
-      "listCategories": "https://templates.do/api",
-      "getCategory": "https://templates.do/:type"
+      "listCategories": "https://experiment.do/api",
+      "getCategory": "https://experiment.do/:type"
     },
-    "site": "https://templates.do",
-    "login": "https://templates.do/login",
-    "signup": "https://templates.do/signup",
-    "subscribe": "https://templates.do/subscribe",
-    "repo": "https://github.com/drivly/templates.do"
+    "site": "https://experiment.do",
+    "login": "https://experiment.do/login",
+    "signup": "https://experiment.do/signup",
+    "subscribe": "https://experiment.do/subscribe",
+    "repo": "https://github.com/drivly/experiment.do"
   }
   "examples": {
-    "listItems": "https://templates.do/worker"
+    "listItems": "https://experiment.do/worker"
   }
 }
 ```
